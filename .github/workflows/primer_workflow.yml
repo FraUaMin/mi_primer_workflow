@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Imprimir saludo
-        run: echo "Hola Mundo con GitHub Actions"
+        run: |
+             echo "Hola Mundo con GitHub Actions"
       - name: Imprimir despedida
         run: echo "Listo. ¡Adiós!"
